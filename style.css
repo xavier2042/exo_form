@@ -1,0 +1,135 @@
+* {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+ }
+ .clear{
+   clear:both;
+ }
+#form1{
+  width: 400px;
+  height: 400px;
+  margin:0 auto;
+  padding: 15px;
+  border-bottom: solid 3px black;
+}
+#form1 h4{
+  padding-top:10px;
+}
+#bouton{
+  margin-top:10px;
+  width: 70px;
+  height: 35px;
+  background-color: #307CDB;
+  color:white;
+  border: solid 1px #307CDB;
+  border-radius: 1px;
+}
+#bouton:hover{
+  background-color:#7DA7DC;
+  box-shadow: 1px #307CDB;
+}
+#form1 textarea{
+  display: block;
+  width: 100%;
+  height: 75px;
+}
+#form1 select{
+  width: 100%;
+  height: 35px;
+}
+#form1 input[type=text]{
+  height: 35px;
+  width: 183px;
+}
+#form1 input[type=email]{
+  height: 35px;
+  width: 100%;
+}
+#form1 input:focus, #form1 textarea:focus{
+  outline-style:none;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #307CDB;
+  border: solid 1px #307CDB;
+}
+#form2{
+  width: 400px;
+  height: 400px;
+  margin:0 auto;
+  padding: 15px;
+  border-bottom: solid 3px black;
+}
+#form2 input[type=submit]{
+  margin-right: 43%;
+}
+#form2 input[type=tel]{
+  width: 35px;
+}
+#form2 h3{
+  border-bottom: solid 2px grey;
+  padding-bottom: 10px;
+}
+#form2 p{
+  padding-top: 15px;
+  float:left;
+  width: 90px;
+}
+#form2 input, select, textarea{
+  margin-top: 10px;
+  height: 30px;
+  border-radius:2px;
+}
+#bouton2{
+  margin-left: 24%;
+  margin-top:10px;
+  width: 70px;
+  height: 35px;
+  background-color: #D07B32;
+  color:white;
+  border: solid 1px #D07B32;
+  border-radius: 1px;
+}
+#bouton2:hover{
+  background-color:#E39450;
+  box-shadow: 1px #E39450;
+}
+#form2 input[type=text], [type="email"], textarea{
+  width: 51%;
+}
+#form2 textarea{
+  height: 80px;
+}
+#form3{
+  width: 400px;
+  height: 400px;
+  margin:0 auto;
+  padding: 15px;
+  border-bottom: solid 3px black;
+  color: #DE5D90;
+}
+#form3 fieldset{
+  width: 380px;
+  height: 250px;
+  background-color: #FBD5E4;
+  border: solid 1px #ED6D9F;
+  border-radius:2px;
+  padding:20px;
+}
+#form3 legend{
+  padding:5px;
+  background-color: #FBD5E4;
+  border: solid 1px #ED6D9F;
+  border-bottom: 0px;
+  border-radius:2px;
+}
+#form3 label{
+  padding-top: 15px;
+  float:left;
+  width: 90px;
+}
+#form3 input, select, textarea{
+  margin-top: 10px;
+  height: 30px;
+  border-radius:2px;
+}
